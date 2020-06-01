@@ -14,6 +14,9 @@ go:
 matrix:
   allow_failures:
     - go: master
+    - arch: arm64
+      go: master
+    
 
 notifications:
   email:
